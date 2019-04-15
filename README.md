@@ -11,6 +11,7 @@ $ docker build -t mybase .
 ### Docker imageを別ファイルに作る
 RubyやNodeを好きに入れてイメージを作成
 ```dockerfile
+#Docker file
 FROM mybase
 
 CMD ["/bin/bash"]
